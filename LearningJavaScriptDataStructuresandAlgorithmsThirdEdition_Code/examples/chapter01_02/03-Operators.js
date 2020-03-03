@@ -14,7 +14,7 @@ console.log('New num value is ' + num);
 num = num / 2;
 console.log('New num value is ' + num);
 
-num++;
+num++; 
 num--;
 
 console.log('New num value is ' + num);

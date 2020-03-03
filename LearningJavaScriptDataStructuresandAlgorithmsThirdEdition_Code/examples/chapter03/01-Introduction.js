@@ -6,12 +6,22 @@ const averageTempMar = 42.4;
 const averageTempApr = 52;
 const averageTempMay = 60.8;
 
+
+
 const averageTemp = [];
 averageTemp[0] = 31.9;
 averageTemp[1] = 35.3;
 averageTemp[2] = 42.4;
 averageTemp[3] = 52;
 averageTemp[4] = 60.8;
+averageTemp[5] = 67.8;
+averageTemp[6] = 67.8;
+
+var totalTemp = 0;
+for (i = 0; i < averageTemp.length; i++) {
+totalTemp = totalTemp + averageTemp[i]
+}
+
 
 console.log('averageTempJan', averageTempJan);
 console.log('averageTempFeb', averageTempFeb);

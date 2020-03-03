@@ -1,10 +1,23 @@
-// @ts-check
-/* eslint-disable */
+var num = 0;
+var obj = new String('0');
+var str = '0';
 
-function output(t) {
-  document.write('<p>' + t + '</p>');
-}
+console.log(num === num); // true
+console.log(obj === obj); // true
+console.log(str === str); // true
 
-alert('Hello, World!');
-console.log('Hello, World!');
-output('Hello, World!');
+console.log(num === obj); // false
+console.log(num === str); // false
+console.log(obj === str); // false
+console.log(null === undefined); // false
+console.log(obj === null); // false
+console.log(obj === undefined); // false
+
+console.log(num == obj); // false
+console.log(num == str); // false
+console.log(obj == str); // false
+console.log(null == undefined); // false
+console.log(obj == null); // false
+console.log(obj == undefined); // false
+
+

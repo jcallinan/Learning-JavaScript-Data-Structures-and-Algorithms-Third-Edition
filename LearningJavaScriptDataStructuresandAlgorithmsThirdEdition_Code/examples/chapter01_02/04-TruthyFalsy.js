@@ -3,6 +3,12 @@
 
 function testTruthy(val) {
   return val ? console.log('truthy') : console.log('falsy');
+
+  if (val) {
+    console.log('truthy') 
+  } else {
+    console.log('falsy');
+  }
 }
 
 testTruthy(true); // true
